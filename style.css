@@ -1,0 +1,286 @@
+/*body{
+  background-color:wheat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+
+  background-color: #A52A2A;
+  text-align: center;
+  line-height: 30px;
+  text-underline-offset: Ozymandias;
+}
+h1,h3,h4{
+  color: red;
+  text-align: center;
+  h3{color: black;}
+}
+a{
+  color:rgb(00,255, 00);
+  text-decoration: none;
+}
+button{
+  color: blueviolet;
+  background-color: white;
+}
+textarea{
+  color: #000000;
+}
+
+span{
+  text-decoration: underline;
+}
+
+
+#outer{
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
+}
+
+.inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50px;
+}
+#red{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#green{
+  background-color: green;
+}
+h2{
+
+  display: inline;
+  background-color: aliceblue;
+}
+span{
+  display: block;
+  background-color: yellowgreen;
+}*
+
+span{
+  background-color: pink;
+  border: 2px dotted brown;
+  height: 100px;
+}
+div{
+
+  width: 500px;
+  border: 2px dotted brown;
+  height: 300px;
+}
+
+
+div{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  border: 3px dashed peru;
+  margin: 50px;
+  display: inline-block;
+}
+#third{
+display: none;
+}
+
+h1{
+  border: 2px dashed darkcyan;
+  width: 50%;
+}
+#outer{
+  height: 400px;
+  width: 400px;
+  background-color: brown;
+  margin: 50px;
+}
+#inner{
+  height: 100px;
+  width: 100px;
+  background-color: chocolate;
+  margin: 20px;
+}
+
+#outer{
+  height: 400px;
+  width: 400px;
+  border: 2px dotted cyan;
+  margin: 20px;
+background-color: pink;
+font-size: 20px;
+}
+#inner{
+  height: 100px;
+  width: 200px;
+  border: 2px dotted cyan;
+  font-size: 0.5em;
+  padding: 1em;
+background-color: powderblue;
+}
+div{
+  height: 150px;
+  width: 300px;
+  background-color: grey;
+  border: 5px dotted black;
+  margin-right: 1em;
+  margin-bottom: 40px;
+  margin-left: 2em;
+  padding: 1em;
+
+}
+
+.first{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 100px;
+  display:inline-block;
+
+}
+.second{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 100px;
+  display:inline-block;
+}
+.third{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 100px;
+  display:inline-block;
+}
+
+li{
+  display: inline;
+}
+
+div{
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255,0,0,1);
+  margin: 0 auto;
+  margin-top:10px;
+  transition: margin-top 2s ease-in 0.2s;
+
+}
+div:hover{
+  margin-top:400px;
+  background-color: pink;
+}
+
+section{
+  margin-top: 100px;
+}
+div{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #7aa874;
+  border: 2px solid black;
+  margin: 10px auto;
+
+}
+div:nth-of-type(2n){
+  background-color:#f7db6a;
+}
+div:nth-of-type(3n){
+  background-color: #ebb02d;
+}
+
+#one{
+  transform:rotate(180deg)
+}
+#two{
+  transform: scale(0.5);
+}
+#three{
+  transform:translate(-210px, 64px) ;
+}
+#four{
+  transform: skew(30deg);
+}
+#five{
+  transform: rotate(30deg) translateX(-210px);
+}
+
+div{
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  background-color: #7aa874;
+  margin: 10px auto;
+  box-shadow: 4px 4px 10px red;
+
+}
+div{
+  color: white;
+  width: 400px;
+  height: 200px;
+  background-color: #7aa874;
+  margin: 10px auto;
+  background-image: url("bphoto.jpeg");
+  background-size: cover;
+}
+
+.card{
+  width: 200px;
+  height: 220px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px black;
+  transition: 2s;
+}
+.desc{
+  padding: 0 2px 0 2px;
+}
+
+img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card:hover{
+
+  box-shadow: 4px 8px 16px red;
+}*/
+
+.face{
+  width: 400px;
+  height: 400px;
+  background-color:#ffa511;
+  border-radius: 50%;
+
+}
+.mouth{
+  width: 200px;
+  height: 75px;
+  background-color: brown;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  top: 260px;
+  left: 110px;
+}
+.lefteye, .righteye{
+   width: 50px;
+   height: 100px;
+   border-radius: 50%;
+   background-color:black;
+   display: inline-block;
+   position: absolute;
+   left: 110px;
+   top: 75px;
+}
+.righteye{
+  left: 250px;
+}
