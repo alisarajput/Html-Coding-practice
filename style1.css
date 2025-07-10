@@ -1,0 +1,68 @@
+p{
+    color: crimson;
+
+    a{
+        color: green;
+        text-decoration: none;
+        background-color: pink;
+    }
+}
+p+h3{
+    color: darkcyan;
+}
+
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: aquamarine;
+}
+/*div{
+    p{color: aqua;}
+}*/
+#myid p:hover{
+color: blue;
+font-weight: bold;
+
+}
+
+
+
+
+button:hover{
+    color: darkkhaki;
+    background-color: darkorange;
+}
+
+h3:hover{
+    color: brown;
+   
+    text-decoration: underline;
+}
+button:active{
+    color:blue;
+    background-color: pink;
+}
+p:active{
+    font-weight:bold;
+    color: blue;
+}
+input[type=radio]:checked+label{
+    color: red;
+font-weight:bold;
+}
+div:nth-of-type(2n){
+    background-color: peru;
+}
+h1::first-letter{
+    color:lightseagreen
+}
+p::first-line{
+    color: pink;
+}
+p::selection{
+   background-color: lemonchiffon;
+}
+h3{
+    background-color: blue;
+}
