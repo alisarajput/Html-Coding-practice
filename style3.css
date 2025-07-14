@@ -1,0 +1,94 @@
+/*div{
+    height: 100px;
+    width: 600px;
+    background-color: pink;
+    border-width: 4px;
+    border-style: dotted;
+    border-color: darkcyan;
+    border-left-color: brown;
+    border-left-style: dashed;
+    border-left-width: 4px;
+    border-top: 4px dashed red;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 15px 20px 25px;
+}
+h1{
+    height: 50px;
+    width: 250px;
+    background-color:rgb(142, 222, 235);
+    border-width: 2.5px;
+    border-style: dashed;
+    border-color: rgb(202, 61, 82);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin: 20px;
+}
+button{
+    color: peru;
+    background-color: skyblue;
+    border-right:2px dashed pink;
+    border-radius: 10px;
+    padding: 10px;
+}*/
+
+
+
+
+      #box1 {
+        width: 100px;
+        height: 100px;
+        background: green;
+      }
+      
+      #box1:hover {
+        width: 600px;
+        transition: width ease-in 0.5s;
+      }
+      
+      
+      #box2 {
+        width: 100px;
+        height: 100px;
+        background: red;
+        
+      }
+      #box2:hover {
+        transform: translate(200px, 200px) rotate(90deg);
+
+      }
+      
+
+      #box3 {
+        width: 100px;
+        height: 100px;
+        background: lightblue;
+      }
+      #box3:hover {
+        transform:translateY(100px) skew(20deg);
+
+      }
+      
+      
+      
+      #box4 {
+        width: 100px;
+        height: 100px;
+        background: lightgreen;
+      }
+      #box4:hover {
+       box-shadow: 2px 2px 8px green;
+
+      }
+      
+      
+      
+      #myPic {
+        width: 100px;
+        height: 100px;
+        background: pink;
+        background-image: url(woman.jpeg.webp);
+        background-size: cover;
+        opacity: 50%;
+      }
+     
